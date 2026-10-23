@@ -26,12 +26,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_GITHUB_USER/emoking.git"
+    "url": "git+https://github.com/Bowie-Z-2001/emoking.git"
   },
   "bugs": {
-    "url": "https://github.com/YOUR_GITHUB_USER/emoking/issues"
+    "url": "https://github.com/Bowie-Z-2001/emoking/issues"
   },
-  "homepage": "https://github.com/YOUR_GITHUB_USER/emoking#readme",
+  "homepage": "https://github.com/Bowie-Z-2001/emoking#readme",
   "dsh": {
     "bundle": {
       "patch": "./cordis.patch.yml"

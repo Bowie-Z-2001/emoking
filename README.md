@@ -64,7 +64,7 @@
 DSH 桌面端的 `desktop` profile 由 Electron 独占（CLI 拒绝 `--profile desktop`），请在应用内安装：
 
 1. 打开 DSH → 侧栏 **插件** → **添加插件**；
-2. 粘贴本仓库地址 `https://github.com/YOUR_GITHUB_USER/emoking`（或 npm 包名 `emoking`）；
+2. 粘贴本仓库地址 `https://github.com/Bowie-Z-2001/emoking`（或 npm 包名 `emoking`）；
 3. 安装完成后**完全退出 DSH（含托盘）再打开**；
 4. 打开任意对话，右下角（小鲸鱼挂件左边）出现悬浮烟盒即成功。
 
@@ -75,7 +75,7 @@ DSH 桌面端的 `desktop` profile 由 Electron 独占（CLI 拒绝 `--profile d
 dsh plugin --profile web add emoking
 
 # 或直接从 GitHub 安装（跟随默认分支，不跟版本）
-dsh plugin --profile web add github:YOUR_GITHUB_USER/emoking
+dsh plugin --profile web add github:Bowie-Z-2001/emoking
 
 # 卸载
 dsh plugin --profile web remove emoking
@@ -148,7 +148,7 @@ npm pack --dry-run                  # 查看 npm 包内容
 
 **emoking** — a small "simulated smoking" widget for DeepSeek Harness (DSH). It floats a real cigarette-pack photo in the bottom-right corner: open the pack, take a cigarette, hold to inhale, release to exhale, watch the ash build up and drop, extinguish in a glass ashtray. 47 SKUs / 25 brands (incl. one Cohiba cigar), real hand photos, real cigar-cutter animation, 18 achievements. **Simulation-only, no real tobacco, not affiliated with any brand or DeepSeek; 18+. Tobacco is harmful to health.**
 
-Install (DSH Web): `dsh plugin --profile web add emoking` (or `github:YOUR_GITHUB_USER/emoking`). Desktop: open DSH → Plugins → Add plugin → paste the repo URL. License: code MIT, assets per [CREDITS.md](CREDITS.md).
+Install (DSH Web): `dsh plugin --profile web add emoking` (or `github:Bowie-Z-2001/emoking`). Desktop: open DSH → Plugins → Add plugin → paste the repo URL. License: code MIT, assets per [CREDITS.md](CREDITS.md).
 
 ---
 
