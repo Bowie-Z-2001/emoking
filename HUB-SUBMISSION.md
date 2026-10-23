@@ -22,7 +22,7 @@
 | 演示（demo） | `demo.gif` |
 | 截图（screenshots） | `docs/screenshots/01-idle-ember.png` … `15-asset-fallback.png`（共 15 张，任选 4–8 张） |
 | 宣传片（video） | `docs/media/emoking-promo.mp4`（47s / 1080p；公开发布建议用无声版并配授权音乐） |
-| 安装命令（Web） | `dsh plugin --profile web add emoking` |
+| 安装命令（Web） | `dsh plugin --profile web add emoking`（npm 已发布 0.12.0；源码安装：`dsh plugin --profile web add github:Bowie-Z-2001/emoking`） |
 | 安装方式（桌面） | DSH → 插件 → 添加插件 → 粘贴仓库地址 |
 | 兼容性 | DSH 桌面版 0.2.1-rc.2 实测；Node ≥ 20.19；无需 API key |
 | 更新日志 | `CHANGELOG.md` |
@@ -93,5 +93,5 @@ Install (DSH Web): `dsh plugin --profile web add emoking`. Desktop: DSH → Plug
 - [ ] `YOUR_NAME` → 作者署名（LICENSE/CREDITS/package.json）
 - [ ] 建仓库并 push，打 `v0.12.0` tag
 - [ ] 若有正式主页/演示链接，补到 homepage
-- [ ] 决定是否发布 npm（`emoking` 目前未被占用）
+- [x] 已发布 npm：`emoking@0.12.0`（`https://www.npmjs.com/package/emoking`）
 - [ ] 决定宣传视频用带 BGM 版（版权音乐，仅本地）还是无声版+平台曲库

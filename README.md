@@ -1,5 +1,7 @@
 # emoking · 虚拟烟替代挂件
 
+[![npm version](https://img.shields.io/npm/v/emoking.svg)](https://www.npmjs.com/package/emoking) [![npm downloads](https://img.shields.io/npm/dm/emoking.svg)](https://www.npmjs.com/package/emoking) [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 > **emoking 不是「抽烟游戏」**：它是给**想戒烟**或**在工位/公共场所不能抽烟**的人用的「虚拟烟」替代工具——烟瘾上来时先点一支虚拟烟顶一下，帮助减少真实吸烟、辅助戒烟；在工位、办公室、电梯、商场等场所，用模拟代替真实吸烟，避免烟雾与二手烟污染环境。模拟不能替代专业戒烟治疗；烟瘾明显时建议咨询戒烟门诊或当地戒烟热线。**吸烟有害健康。**
 >
 > 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）做的「模拟抽烟」解闷挂件：等 AI 跑任务时，右下角开一包烟、取一支点上，**按住抽一口、松手吐烟**；烟灰会变长、会掉，抽完把烟蒂按进玻璃烟灰缸。有 47 款烟/25 个品牌、真实手图、雪茄剪茄帽动画和 18 个成就。**纯本地模拟娱乐，不含真实烟草，不涉及任何烟草销售。**
@@ -71,7 +73,7 @@ DSH 桌面端的 `desktop` profile 由 Electron 独占（CLI 拒绝 `--profile d
 ### Web / CLI（`dsh web`）
 
 ```bash
-# 从 npm 安装（推荐，需要先发布到 npm）
+# 从 npm 安装（推荐，已发布 emoking@0.12.0）
 dsh plugin --profile web add emoking
 
 # 或直接从 GitHub 安装（跟随默认分支，不跟版本）
