@@ -1,0 +1,50 @@
+{
+  "name": "emoking",
+  "version": "0.12.0",
+  "description": "emoking · 用虚拟烟替代真烟：帮你在想抽烟时顶一下，减少真实吸烟、辅助戒烟；也避免在工位/办公室/电梯/商场等公共场所吸烟造成烟雾与二手烟污染。DSH 右下角的模拟抽烟挂件（47 款烟/25 品牌/雪茄 1/18 成就），纯本地模拟、不含真实烟草、不涉及销售。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "widget",
+    "smoke",
+    "simulation",
+    "desktop",
+    "browser"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.png",
+  "files": [
+    "lib",
+    "assets",
+    "icon.png",
+    "cordis.patch.yml",
+    "README.md",
+    "CREDITS.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_GITHUB_USER/emoking.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_GITHUB_USER/emoking/issues"
+  },
+  "homepage": "https://github.com/YOUR_GITHUB_USER/emoking#readme",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "release:check": "node scripts/release-check.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

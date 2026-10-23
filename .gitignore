@@ -1,0 +1,28 @@
+# 仓库忽略规则（公开发布版）
+# 真实图鉴原图、素材候选与本地测试产物不进入仓库/npm 包
+
+# 个人/本地素材
+香烟图鉴/
+photo-candidates/
+.smoke-install-backup/
+.test-home/
+.lead-test-home/
+
+# 依赖与包产物
+node_modules/
+*.tgz
+*.tar.gz
+
+# 本地配置与数据
+/config.json
+/stats.json
+
+# 日志与临时文件
+*.log
+tmp/
+.tmp/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
